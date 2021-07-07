@@ -1,0 +1,16 @@
+.card-img-top {
+	height: 40%;
+	object-fit: cover;
+}
+
+#section_products {
+	margin: 2rem auto !important;
+}
+
+#section_product {
+	width: 70%;
+	margin: 0 auto;
+	img {
+		width: 100%;
+	}
+}

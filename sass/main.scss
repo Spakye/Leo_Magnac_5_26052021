@@ -1,0 +1,15 @@
+@import "layout/header";
+@import "layout/footer";
+@import "base/reset";
+
+@import "page/index";
+@import "page/product";
+@import "page/cart";
+
+body {
+	background-color: #eaeded !important;
+}
+
+.confirm {
+	font-size: 25px;
+}

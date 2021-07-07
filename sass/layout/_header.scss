@@ -1,0 +1,39 @@
+header {
+	background-color: #232f3e;
+	color: white;
+}
+
+header ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+header ul li {
+	padding: 0rem 1rem;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+	&:hover {
+		color: white;
+		-webkit-animation: glow 1s ease-in-out infinite alternate;
+		-moz-animation: glow 1s ease-in-out infinite alternate;
+		animation: glow 1s ease-in-out infinite alternate;
+	}
+}
+
+@-webkit-keyframes glow {
+	from {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
+			0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+	}
+	to {
+		text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff,
+			0 0 60px #fff, 0 0 70px #fff, 0 0 80px #fff;
+	}
+}
+
+nav {
+	align-items: center;
+}
